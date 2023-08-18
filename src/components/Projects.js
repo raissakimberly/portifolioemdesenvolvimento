@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./projectCard";
-import projImg1 from "../assets/img/imageone.jpeg";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/imagem1.png";
+import projImg2 from "../assets/img/imagem2 (2).png";
+import projImg3 from "../assets/img/img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -23,24 +23,10 @@ export const Projects = () => {
       projectUrl: "https://raissakimberly.github.io/relogiosimplesdigital/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Landing Page para Start Up",
+      description: "Html, Css, JavaScript e BootStrap",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      projectUrl: "https://raissakimberly.github.io/startuppage/",
     },
   ];
 
